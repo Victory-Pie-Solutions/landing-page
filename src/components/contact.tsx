@@ -6,7 +6,8 @@ function Contact() {
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-12">
       <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-      <p className="lg:w-1/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+      <p className="lg:w-1/3 mx-auto leading-relaxed text-base">
+We value your input and are eager to hear from you. Whether you have questions, feedback, or simply want to reach out, don't hesitate to get in touch with us</p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
       <div className="flex flex-wrap -m-2">

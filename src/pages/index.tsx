@@ -4,6 +4,7 @@ import Hero from '@/components/hero'
 import Team from '@/components/team'
 import Vision from '@/components/vision'
 import Contact from '@/components/contact'
+import Impressum from '@/components/impressum'
 
 const inter = Inter({ subsets: ['latin'] })
 

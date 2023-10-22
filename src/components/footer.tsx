@@ -12,6 +12,21 @@ const Footer = () => {
     </a>
     <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Victory Pie Solutions
     </p>
+    <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+    <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+    Dies ist die Impressum-Seite für Victory Pie Solutions.
+    <br></br>
+
+Unternehmensname: Victory Pie Solutions
+<br></br>
+
+Anschrift: Reichenhainer Straße
+<br></br>
+Kontakt: +4915736206861
+<br></br>
+Vertreten durch: Saleh Ghraiyib
+</p>
+</span>
   </div>
 </footer>
   )
