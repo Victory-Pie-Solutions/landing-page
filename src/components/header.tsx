@@ -11,10 +11,10 @@ export const Header = () => {
       <span className="ml-3 text-xl">VPS</span>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a className="mr-5 hover:text-gray-900">Home</a>
-      <a className="mr-5 hover:text-gray-900">Vision</a>
-      <a className="mr-5 hover:text-gray-900">Team</a>
-      <a className="mr-5 hover:text-gray-900">Contact</a>
+      <a className="mr-5 hover:text-gray-900" href='#hero'>Home</a>
+      <a className="mr-5 hover:text-gray-900" href='#vision'>Vision</a>
+      <a className="mr-5 hover:text-gray-900" href='#team'>Team</a>
+      <a className="mr-5 hover:text-gray-900" href='#contact'>Contact</a>
     </nav>
   </div>
 </header>

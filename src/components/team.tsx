@@ -1,8 +1,9 @@
 import React from 'react'
+import saleh from '../imgs/saleh.jpg'
 
 function Team() {
   return (
-    <section className="text-gray-600 body-font">
+    <section id="team" className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
       <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">OUR TEAM</h1>
@@ -11,9 +12,9 @@ function Team() {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200" />
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={saleh.src} />
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+            <h2 className="title-font font-medium text-lg text-gray-900">Saleh Ghraiyib</h2>
             <h3 className="text-gray-500 mb-3">UI Developer</h3>
           </div>
         </div>
