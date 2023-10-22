@@ -1,7 +1,8 @@
 import React from 'react'
 import saleh from '../imgs/saleh.jpg'
 import patboke from '../imgs/patboke.png'
-import natnicha from '../imgs/natnicha.png'
+import natnicha from '../imgs/fern.png'
+import emily from '../imgs/emily.png'
 
 function Team() {
   return (
@@ -23,7 +24,7 @@ function Team() {
       </div>
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201" />
+          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={emily.src} />
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-gray-900">Eun-young Choi
 </h2>
