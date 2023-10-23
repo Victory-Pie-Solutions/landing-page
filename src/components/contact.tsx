@@ -58,9 +58,9 @@ function Contact() {
             <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
               <a
                 className="text-blue-500"
-                href="mailto:victorypiesolutions@outlook.com"
+                href="mailto:Victorypiesolutions@outlook.com"
               >
-                victorypiesolutions@outlook.com
+                Victorypiesolutions@outlook.com
               </a>
               <p className="leading-normal my-5">
                 {" "}
