@@ -11,7 +11,7 @@ export const Header = () => {
           className="flex title-font font-medium items-center text-gray-600 mb-4 md:mb-0"
           href="#home"
         >
-          <img className="w-40 h-15 text-white" src={logo.src} />
+          <img className="w-40 h-15 text-white position: absolute" src={logo.src} />
         </a>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <a className="mr-5 hover:text-orange-500" href="#home">
