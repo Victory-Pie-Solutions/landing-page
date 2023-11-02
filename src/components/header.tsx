@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "@/imgs/logo.png";
 
-export const Header = () => {
+export const Header = ({showDecleration}) => {
   return (
     <header
       className={`sticky top-0 z-50 transition-shadow shadow bg-opacity-80 backdrop-blur-lg backdrop-filter"`}
@@ -12,7 +12,7 @@ export const Header = () => {
         }}>
         <a
           className="flex title-font font-medium items-center text-gray-600 mb-4 md:mb-0"
-          href="#home"
+          href="#home" onClick={() => showDecleration(0)}
         >
           <img className="w-40 h-15 text-white position: absolute" src={logo.src} />
         </a>
@@ -21,16 +21,16 @@ export const Header = () => {
             position:"relative", 
             paddingTop:"20px"
           }}>
-          <a className="mr-5 hover:text-orange-500" href="#home">
+          <a className="mr-5 hover:text-orange-500" onClick={() => showDecleration(0)} href="#home">
             Home
           </a>
-          <a className="mr-5 hover:text-orange-500" href="#vision">
+          <a className="mr-5 hover:text-orange-500" onClick={() => showDecleration(0)} href="#vision">
             Vision
           </a>
-          <a className="mr-5 hover:text-orange-500" href="#team">
+          <a className="mr-5 hover:text-orange-500" onClick={() => showDecleration(0)} href="#team">
             Team
           </a>
-          <a className="mr-5 hover:text-orange-500" href="#contact">
+          <a className="mr-5 hover:text-orange-500" onClick={() => showDecleration(0)} href="#contact">
             Contact
           </a>
         </nav>
