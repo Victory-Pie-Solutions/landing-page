@@ -30,8 +30,8 @@ const Footer = ({ showDecleration }) => {
         <span className="inline-flex sm:mx-auto sm:mt-0 mt-4">
           <a
             className="text-gray-600 hover:text-gray-800 hover:underline"
-            onClick={() => showDecleration(1)}
-            href="imprint"
+            onClick={() => showDecleration(2)}
+            href="#imprint"
           >
             Imprint{" "}
           </a>
@@ -40,7 +40,7 @@ const Footer = ({ showDecleration }) => {
           <a
             className="text-gray-600 hover:text-gray-800 hover:underline"
             onClick={() => showDecleration(1)}
-            href="privacypolicy"
+            href="#privacypolicy"
           >
             Privacy Policy{" "}
           </a>
