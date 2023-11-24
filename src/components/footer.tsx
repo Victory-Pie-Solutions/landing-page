@@ -1,13 +1,13 @@
 import React from "react";
 import logo from "@/imgs/logo.png";
 
-const Footer = ({showDecleration}) => {
+const Footer = ({ showDecleration }) => {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-600">
+        {/* <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-600">
           <img className="w-40 h-15 text-white" src={logo.src} />
-        </a>
+        </a> */}
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           © 2023 Victory Pie Solutions
         </p>
@@ -85,19 +85,28 @@ const Footer = ({showDecleration}) => {
           </a>
         </span>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-        <a className="text-gray-600 hover:text-gray-800" onClick={() => showDecleration(1)} href="#">Privacy Policy</a>
+          <a
+            className="text-gray-600 hover:text-gray-800 hover:underline"
+            onClick={() => showDecleration(1)}
+            href="#"
+          >
+            Privacy Policy {/* Imprint/information on data protection{" "} */}
+          </a>
         </span>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            Dies ist die Impressum-Seite für Victory Pie Solutions.
+            This website does not belong to a real company.
             <br></br>
-            Unternehmensname: Victory Pie Solutions
+            It is a Planspiel Web Engineering project at
             <br></br>
-            Anschrift: Reichenhainer Straße
+            <a
+              className="text-gray-600 hover:underline"
+              href="https://www.tu-chemnitz.de/"
+              target="_blank"
+            >
+              University of Technology Chemnitz
+            </a>
             <br></br>
-            Kontakt: +4915736206861
-            <br></br>
-            Vertreten durch: Saleh Ghraiyib
           </p>
         </span>
       </div>
