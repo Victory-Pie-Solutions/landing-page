@@ -8,14 +8,48 @@ const Footer = ({ showDecleration }) => {
         {/* <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-600">
           <img className="w-40 h-15 text-white" src={logo.src} />
         </a> */}
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4">
+          <p className="text-sm text-gray-500 sm:mr-4 sm:pr-4 sm:border-r-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+            This website does not belong to a real company.
+            <br></br>
+            It is a Planspiel Web Engineering project at
+            <br></br>
+            <a
+              className="text-gray-600 hover:underline"
+              href="https://www.tu-chemnitz.de/"
+              target="_blank"
+            >
+              University of Technology Chemnitz
+            </a>
+            <br></br>
+          </p>
+        </span>
+        <p className="text-sm text-gray-500 sm:mr-auto sm:mt-0 mt-4">
           © 2023 Victory Pie Solutions
         </p>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <span className="inline-flex sm:mx-auto sm:mt-0 mt-4">
+          <a
+            className="text-gray-600 hover:text-gray-800 hover:underline"
+            onClick={() => showDecleration(1)}
+            href="imprint"
+          >
+            Imprint{" "}
+          </a>
+        </span>
+        <span className="inline-flex sm:mx-auto sm:mt-0 mt-4">
+          <a
+            className="text-gray-600 hover:text-gray-800 hover:underline"
+            onClick={() => showDecleration(1)}
+            href="privacypolicy"
+          >
+            Privacy Policy{" "}
+          </a>
+        </span>
+        <span className="inline-flex sm:mx-auto sm:mt-0 mt-4">
           <a
             href="https://www.facebook.com/victorypiesolutions"
             target="_blank"
-            className="ml-3 text-gray-500 hover:text-orange-500"
+            className="mx-1.5 text-gray-500 hover:text-orange-500"
           >
             <svg
               fill="currentColor"
@@ -31,7 +65,7 @@ const Footer = ({ showDecleration }) => {
           <a
             href="https://x.com/VictoryPie2023"
             target="_blank"
-            className="ml-3 text-gray-500 hover:text-orange-500"
+            className="mx-1.5 text-gray-500 hover:text-orange-500"
           >
             <svg
               fill="currentColor"
@@ -47,7 +81,7 @@ const Footer = ({ showDecleration }) => {
           <a
             href="https://www.instagram.com/victorypiesolutions/"
             target="_blank"
-            className="ml-3 text-gray-500 hover:text-orange-500"
+            className="mx-1.5 text-gray-500 hover:text-orange-500"
           >
             <svg
               fill="none"
@@ -65,7 +99,7 @@ const Footer = ({ showDecleration }) => {
           <a
             href="https://www.linkedin.com/in/victory-pie-solutions-493516299/"
             target="_blank"
-            className="ml-3 text-gray-500 hover:text-orange-500"
+            className="mx-1.5 text-gray-500 hover:text-orange-500"
           >
             <svg
               fill="currentColor"
@@ -83,31 +117,6 @@ const Footer = ({ showDecleration }) => {
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
-        </span>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a
-            className="text-gray-600 hover:text-gray-800 hover:underline"
-            onClick={() => showDecleration(1)}
-            href="#"
-          >
-            Privacy Policy {/* Imprint/information on data protection{" "} */}
-          </a>
-        </span>
-        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            This website does not belong to a real company.
-            <br></br>
-            It is a Planspiel Web Engineering project at
-            <br></br>
-            <a
-              className="text-gray-600 hover:underline"
-              href="https://www.tu-chemnitz.de/"
-              target="_blank"
-            >
-              University of Technology Chemnitz
-            </a>
-            <br></br>
-          </p>
         </span>
       </div>
     </footer>
