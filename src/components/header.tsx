@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "@/imgs/logo.png";
 
-export const Header = ({ showDecleration }) => {
+export const Header = ({ clearHomepage }) => {
   return (
     <header
       className={`sticky top-0 z-50 transition-shadow shadow bg-opacity-80 backdrop-blur-lg backdrop-filter"`}
@@ -10,7 +10,7 @@ export const Header = ({ showDecleration }) => {
         <a
           className="flex title-font font-medium items-center text-gray-600 mb-4 md:mb-0"
           href="#home"
-          onClick={() => showDecleration(0)}
+          onClick={() => clearHomepage()}
         >
           <img
             className="md:justify-center w-40 h-15 text-white absolute "
@@ -20,28 +20,28 @@ export const Header = ({ showDecleration }) => {
         <nav className="md:mx-auto flex flex-wrap items-center text-base justify-center">
           <a
             className="mx-3 hover:text-orange-500"
-            onClick={() => showDecleration(0)}
+            onClick={() => clearHomepage()}
             href="#home"
           >
             Home
           </a>
           <a
             className="mx-3 hover:text-orange-500"
-            onClick={() => showDecleration(0)}
+            onClick={() => clearHomepage()}
             href="#vision"
           >
             Vision
           </a>
           <a
             className="mx-3 hover:text-orange-500"
-            onClick={() => showDecleration(0)}
+            onClick={() => clearHomepage()}
             href="#team"
           >
             Team
           </a>
           <a
             className="mx-3 hover:text-orange-500"
-            onClick={() => showDecleration(0)}
+            onClick={() => clearHomepage()}
             href="#contact"
           >
             Contact

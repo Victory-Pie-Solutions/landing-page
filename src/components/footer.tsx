@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "@/imgs/logo.png";
 
-const Footer = ({ showDecleration }) => {
+const Footer = ({ showDecleration, showImpressum}) => {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -30,7 +30,7 @@ const Footer = ({ showDecleration }) => {
         <span className="inline-flex sm:mx-auto sm:mt-0 mt-4">
           <a
             className="text-gray-600 hover:text-gray-800 hover:underline"
-            onClick={() => showDecleration(2)}
+            onClick={() => showImpressum(1)}
             href="#imprint"
           >
             Imprint{" "}

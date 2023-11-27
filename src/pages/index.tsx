@@ -16,9 +16,23 @@ export default function Home() {
 
 
   const [showData, setShowData] = useState(0)
+  const [showData2, setShowData2] = useState(0)
 
   const showDecleration = (showData) => {
+    if(showData2 == 1)
+    setShowData2(0)
    setShowData(showData)
+ }
+
+ const showImpressum = (showImpressum) => {
+  if(showData == 1)
+    setShowData(0)
+  setShowData2(showImpressum)
+ }
+
+ const clearHome = () =>{
+  setShowData(0)
+  setShowData2(0)
  }
 
 
@@ -27,15 +41,17 @@ export default function Home() {
 
   return (
     <>
-  <Header showDecleration = {showDecleration}/>
+  <Header clearHomepage={clearHome}/>
   <section>
-    {showData != 1 && <Hero />}
-    {showData != 1 && <Vision />}
-    {showData != 1 && <Team />}
-    {showData != 1 && <Contact />}
-    {showData == 1 && <Data />}
+    {(showData != 1 && showData2 !=1) && <Hero />}
+    {(showData != 1 && showData2 !=1) && <Vision />}
+    {(showData != 1 && showData2 !=1) && <Team />}
+    {(showData != 1 && showData2 !=1) && <Contact />}
+    {showData == 1 && showData2 != 1 && <Data />}
+    {(showData2 == 1 && showData != 1) && <Impressum />}
+
   </section>
-  <Footer showDecleration = {showDecleration} />
+  <Footer showDecleration = {showDecleration} showImpressum={showImpressum} />
   </>
   )
 }
