@@ -16,10 +16,10 @@ const Impressum = () => {
         <strong>Anschrift:</strong> Reichenhainer Straße
       </p>
       <p>
-        <strong>Kontakt:</strong> [Ihre Kontaktinformationen]
+        <strong>Kontakt:</strong> +4915736206861
       </p>
       <p>
-        <strong>Vertreten durch:</strong> Saleh Ghraiyib +4915736206861
+        <strong>Vertreten durch:</strong> Saleh Ghraiyib
       </p>
       <p>
         <strong>Handelsregister:</strong> TUC-PLANSPIEL
