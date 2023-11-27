@@ -2,7 +2,7 @@ import React from "react";
 
 function Data() {
   return (
-    <section id="vision" className="text-black-600 body-font">
+    <section id="data" className="text-black-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="xl:w-1/1 lg:w-3/4 w-full mx-auto text-left">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600">
@@ -61,19 +61,37 @@ function Data() {
           </p>
           <br></br>
           <p className="leading-relaxed text-lg">
-          The legislator has enacted a wide range of retention obligations and periods. After these periods have expired, the corresponding data is routinely deleted if it is no longer required for the fulfillment of tasks.
+            The legislator has enacted a wide range of retention obligations and
+            periods. After these periods have expired, the corresponding data is
+            routinely deleted if it is no longer required for the fulfillment of
+            tasks.
           </p>
           <br></br>
           <p className="leading-relaxed text-lg">
-          To protect your transmitted data in the best possible way, this website uses SSL encryption. All data that you transmit to this website can not be read by third parties thanks to SSL encryption.
+            To protect your transmitted data in the best possible way, this
+            website uses SSL encryption. All data that you transmit to this
+            website can not be read by third parties thanks to SSL encryption.
           </p>
           <br></br>
           <p className="leading-relaxed text-lg">
-          Victory Pie Solutions endeavors to ensure that all information and data on its website is accurate and up-to-date. With the abundance of information to be processed, errors or incompleteness cannot be avoided despite careful processing. A liability or guarantee for the topicality, correctness and completeness of the information and data provided is excluded. Victory Pie Solutions reserves the right to make changes or additions at any time without prior notice.
+            Victory Pie Solutions endeavors to ensure that all information and
+            data on its website is accurate and up-to-date. With the abundance
+            of information to be processed, errors or incompleteness cannot be
+            avoided despite careful processing. A liability or guarantee for the
+            topicality, correctness and completeness of the information and data
+            provided is excluded. Victory Pie Solutions reserves the right to
+            make changes or additions at any time without prior notice.
           </p>
           <br></br>
           <p className="leading-relaxed text-lg">
-          This notice also applies to all other websites referred to by hyperlinks. For all links on this website, we expressly emphasize that Victory Pie Solutions has no influence on the design and content of the linked pages. Therefore, we hereby expressly distance ourselves from all contents of all linked pages on this website. However, when linking to these Internet offers for the first time, Victory Pie Solutions checked the external content to see whether it could trigger any possible liability under civil or criminal law.
+            This notice also applies to all other websites referred to by
+            hyperlinks. For all links on this website, we expressly emphasize
+            that Victory Pie Solutions has no influence on the design and
+            content of the linked pages. Therefore, we hereby expressly distance
+            ourselves from all contents of all linked pages on this website.
+            However, when linking to these Internet offers for the first time,
+            Victory Pie Solutions checked the external content to see whether it
+            could trigger any possible liability under civil or criminal law.
           </p>
           <br></br>
 
