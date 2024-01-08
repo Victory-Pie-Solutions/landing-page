@@ -9,6 +9,7 @@ import Data from '@/components/data'
 import { useState } from 'react'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
+import Current from '@/components/current'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -44,6 +45,7 @@ export default function Home() {
   <Header clearHomepage={clearHome}/>
   <section>
     {(showData != 1 && showData2 !=1) && <Hero />}
+    {(showData != 1 && showData2 != 1) && <Current />}
     {(showData != 1 && showData2 !=1) && <Vision />}
     {(showData != 1 && showData2 !=1) && <Team />}
     {(showData != 1 && showData2 !=1) && <Contact />}

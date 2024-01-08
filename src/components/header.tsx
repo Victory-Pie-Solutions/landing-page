@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "@/imgs/logo.png";
+import across from "@/imgs/across.png"
 
 export const Header = ({ clearHomepage }) => {
   return (

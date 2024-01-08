@@ -1,6 +1,7 @@
 import React from "react";
 import img2 from "../imgs/pexels-kaboompics-com-54283.jpg";
 import img from "../imgs/banner.jpg";
+import across from "../imgs/across.png"
 function Hero() {
   return (
     <section className="text-gray-600 body-font" id="home">
