@@ -22,9 +22,9 @@ export const Header = ({ clearHomepage }) => {
           <a
             className="mx-3 hover:text-orange-500"
             onClick={() => clearHomepage()}
-            href="#home"
+            href="#about"
           >
-            Home
+            About
           </a>
           <a
             className="mx-3 hover:text-orange-500"
