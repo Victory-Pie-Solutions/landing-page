@@ -3,6 +3,7 @@ import across from "@/imgs/across.png";
 import group from "@/imgs/group.jpeg";
 import final from "@/imgs/team_final.jpg";
 
+
 function Current() {
   return (
     <section id="current" className="text-gray-600 body-font">
