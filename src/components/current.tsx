@@ -4,6 +4,7 @@ import group from "@/imgs/group.jpeg";
 import final from "@/imgs/team_final.jpg";
 
 
+
 function Current() {
   return (
     <section id="current" className="text-gray-600 body-font">
@@ -39,7 +40,7 @@ function Current() {
       </div>
       <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600">
-          Final Pitch - Across Module Catalog
+          Final Pitch
         </h1>
         <p className="mb-8 leading-relaxed">
           We recently concluded our final pitch for the Across Initiative
@@ -68,6 +69,24 @@ function Current() {
         <br></br>
         <div className="container px-5 py-24 mx-auto"></div>
       </div>
+      <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600 text-center">
+        Across Module Catalog - Video
+      </h1>
+      <br />
+      <div className="aspect-w-16 aspect-h-9"> {/* Maintain aspect ratio */}
+        <iframe
+          title="Google Drive Video"
+          src="https://drive.google.com/file/d/1DxQQf9hojZLb1m03uNM3lfV7K0TfK9Mj/preview"
+          width="100%" // Adjust to full width
+          height="480" // Allow height to adjust based on aspect ratio
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+        <br></br>
+        <div className="container px-5 py-24 mx-auto"></div>
+      </div>
+    </div>
       <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-600">
           Pitch 3 - Product Demo
