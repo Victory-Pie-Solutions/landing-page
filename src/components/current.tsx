@@ -30,18 +30,22 @@ function Current() {
             cross-border cultural heritage.
           </p>
           <br></br>
+          <a href="https://www.across-alliance.eu/">
           <img
             className="w-40 h-15"
             style={{ display: "inline" }}
             src={across.src}
           />
+          </a>
           <br></br>
           <br></br>
+          <a href="https://gitlab.hrz.tu-chemnitz.de/vsr/edu/planspiel/WS2324/victory-pie-solutions">
           <img
           className="w-40 h-15"
           style={{ display: "inline" }}
           src={gitlab.src}
-        /> 
+        />
+        </a>
         </div>
         <div className="container px-5 py-24 mx-auto"></div>
       </div>
