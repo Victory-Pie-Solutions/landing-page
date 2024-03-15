@@ -2,6 +2,7 @@ import React from "react";
 import across from "@/imgs/across.png";
 import group from "@/imgs/group.jpeg";
 import final from "@/imgs/team_final.jpg";
+import gitlab from "@/imgs/gitlab.png"
 
 
 
@@ -35,6 +36,12 @@ function Current() {
             src={across.src}
           />
           <br></br>
+          <br></br>
+          <img
+          className="w-40 h-15"
+          style={{ display: "inline" }}
+          src={gitlab.src}
+        /> 
         </div>
         <div className="container px-5 py-24 mx-auto"></div>
       </div>
